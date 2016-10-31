@@ -12,14 +12,14 @@
   },
   "keywords": ["testing", "api", "REST", "vows"],
   "dependencies": {
-    "pkginfo": "0.2.x",
+    "pkginfo": "~0.4.0",
     "request": "2.x.x",
-    "vows": "0.6.x"
+    "vows": "~0.8.1"
   },
   "devDependencies": {
-    "director": "~1.0.3",
-    "formidable": "1.0.2",
-    "mkdirp": "0.2.x"
+    "director": "~1.2.8",
+    "formidable": "1.0.17",
+    "mkdirp": "~0.5.1"
   },
   "main": "./lib/api-easy",
   "scripts": { "test": "vows test/*-test.js --spec" },
